@@ -1,0 +1,11 @@
+{
+  "name": "scss-responsive",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "sass sass/main.scss build/style.css --watch",
+    "start": "live-server",
+    "dev": "concurrently \"yarn compile\" \"yarn start\""
+  }
+}
